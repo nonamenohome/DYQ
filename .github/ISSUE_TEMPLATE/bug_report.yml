@@ -1,0 +1,20 @@
+name: Bug 报告
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: 问题描述
+      description: 发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤
+      description: 如何复现？
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: 环境
+      description: 系统 / 版本等

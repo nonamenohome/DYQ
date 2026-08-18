@@ -1,0 +1,16 @@
+name: 功能请求
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: 期望功能
+      description: 你希望新增什么？
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 用途说明
+      description: 这个功能解决什么问题？
+    validations:
+      required: false

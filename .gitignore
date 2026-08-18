@@ -1,0 +1,30 @@
+# ---- Node / npm ----
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 环境 / 密钥 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/*.local
+.DS_Store
+Thumbs.db
