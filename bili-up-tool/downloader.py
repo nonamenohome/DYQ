@@ -34,7 +34,6 @@ def _find_ffmpeg():
         return p
     for c in (
         os.path.expanduser(r"~\bin\ffmpeg.exe"),
-        r"C:\Users\quyuedi\bin\ffmpeg.exe",
         r"C:\ffmpeg\bin\ffmpeg.exe",
     ):
         if os.path.exists(c):
