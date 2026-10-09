@@ -1,0 +1,13 @@
+{
+  "uid": 0,
+  "cookie": {
+    "sessdata": "填这里：SESSDATA 的值",
+    "bili_jct": "填这里：bili_jct 的值",
+    "buvid3": "填这里：buvid3 的值",
+    "dedeuserid": "填这里：DedeUserID 的值"
+  },
+  "quality": 1080,
+  "poll_interval_minutes": 10,
+  "download_dir": "downloads",
+  "port": 5000
+}

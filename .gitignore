@@ -28,3 +28,11 @@ env/
 .vscode/*.local
 .DS_Store
 Thumbs.db
+
+# bili-up-tool: 本地凭据与数据
+bili-up-tool/config.json
+bili-up-tool/cookies.txt
+bili-up-tool/bili.db
+bili-up-tool/downloads/
+bili-up-tool/__pycache__/
+bili-up-tool/*.log
